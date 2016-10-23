@@ -7,6 +7,11 @@ $ wget -O index.sh https://raw.githubusercontent.com/JimmyVV/CA/master/index.sh
 $ curl -o index.sh https://raw.githubusercontent.com/JimmyVV/CA/master/index.sh
 ```
 please don't change the 'index.sh' name, because it will be used in later code.
+Then, change its modification
+```
+$ chmod +x index.sh
+```
+
 ## Usage
 First, you should choose one directory, no matter where it is.
 
