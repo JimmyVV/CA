@@ -2,13 +2,11 @@
 If you want to test TLS/SSL handshake locally, maybe you want to buy one certificate for your website. But in fact, there is some way to help you quickly achieve this target. That is to create your own certificate authority(CA). And `openssl` is a free and open-source cryptographic library. If you want to know more, please refer to [OpenSSL Certificate Authority][1]. This is a tidy shell script which is a collection of all procedure and do some optimization.
 ## Installation
 ```
-# first, use wget
 $ wget -O index.sh https://raw.githubusercontent.com/JimmyVV/CA/master/index.sh
-# second, use curl
+// or
 $ curl -o index.sh https://raw.githubusercontent.com/JimmyVV/CA/master/index.sh
-
-# please don't change the 'index.sh' name, because it will be used in later code.
 ```
+please don't change the 'index.sh' name, because it will be used in later code.
 ## Usage
 First, you should choose one directory, no matter where it is.
 
