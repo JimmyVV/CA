@@ -3,9 +3,9 @@ If you want to test TLS/SSL handshake locally, maybe you want to buy one certifi
 ## Installation
 ```
 # first, use wget
-$ wget -O index.sh xxxx
+$ wget -O index.sh https://raw.githubusercontent.com/JimmyVV/CA/master/index.sh
 # second, use curl
-$ curl -o index.sh 
+$ curl -o index.sh https://raw.githubusercontent.com/JimmyVV/CA/master/index.sh
 
 # please don't change the 'index.sh' name, because it will be used in later code.
 ```
@@ -72,7 +72,7 @@ In order to make CA valid, you should add `ca-chain.cert.pem` to your own comput
 
 ## Test
 You can run any server you like to test `https`. Here, I will use NodeJs. 
-```nodejs
+```
 const https = require('https');
 const fs = require('fs');
 
