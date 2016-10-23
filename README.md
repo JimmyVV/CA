@@ -72,7 +72,7 @@ In order to make CA valid, you should add `ca-chain.cert.pem` to your own comput
 
 ## Test
 You can run any server you like to test `https`. Here, I will use NodeJs. 
-```
+```nodejs
 const https = require('https');
 const fs = require('fs');
 
